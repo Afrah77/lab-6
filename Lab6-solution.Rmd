@@ -1,10 +1,9 @@
 ---
 title: "Lab 6 - La Quinta is Spanish for next to Denny's, Pt. 1"
 subtitle: "Visualizing spatial data"
-author: 
+author:AFRAH
 output: pdf_document
 ---
-NAME:AFRAH
 Student ID: 2201002977
 
 
@@ -37,17 +36,22 @@ states <- read_csv("data/states.csv")
 1.  What are the dimensions of the Denny's dataset?
     (Hint: Use inline R code and functions like `nrow` and `ncol` to compose your answer.) What does each row in the dataset represent?
     What are the variables?
+    [1] 1643    6
+
     
 ```{r}
 dim(dennys)
  head(dennys)
 ```
+
 \textcolor{red}{The `dennys` dataset has 1,643 rows and 6 columns. Each row represents location information about a denny's restaurant.}
 
 
 2.  What are the dimensions of the La Quinta's dataset? 
     What does each row in the dataset represent?
     What are the variables?
+    [1] 909   6
+
     
     
 ```{r}
